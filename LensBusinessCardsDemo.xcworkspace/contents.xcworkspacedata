@@ -2,12 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/veryfi/Lens Flavors Demos/LensBusinessCardsDemo/LensBusinessCardsDemo.xcodeproj">
+      location = "group:LensBusinessCardsDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LensBusinessCardsDemo.xcodeproj">
    </FileRef>
 </Workspace>
