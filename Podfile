@@ -1,4 +1,4 @@
-source 'git@bitbucket.org:veryfi/veryfi-lens-podspec.git'
+source 'https://repo.veryfi.com/shared/lens/veryfi-lens-podspec.git'
 source 'https://github.com/CocoaPods/Specs.git'
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
@@ -8,6 +8,6 @@ target 'LensBusinessCardsDemo' do
   use_frameworks!
 
   # Pods for LensBusinessCardsDemo
-  pod 'VeryfiLens-BusinessCards'
+  pod 'VeryfiLens-BusinessCards', '1.6.5.1'
 
 end
