@@ -18,17 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VeryfiLogo" translatesAutoresizingMaskIntoConstraints="NO" id="heV-Lb-fJr">
-                                <rect key="frame" x="40" y="317" width="310" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="oSn-TQ-kMK"/>
-                                </constraints>
+                                <rect key="frame" x="40" y="383" width="310" height="78"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="heV-Lb-fJr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="0SO-YQ-hq7"/>
-                            <constraint firstItem="heV-Lb-fJr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UBZ-FO-8wT"/>
+                            <constraint firstItem="heV-Lb-fJr" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Vnz-tB-VWI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="heV-Lb-fJr" secondAttribute="trailing" constant="40" id="bfV-BP-Rcg"/>
                         </constraints>
                     </view>
