@@ -2,11 +2,11 @@ PODS:
   - AWSCore (2.29.1)
   - AWSS3 (2.29.1):
     - AWSCore (= 2.29.1)
-  - VeryfiLens-BusinessCards (2.0.2.1):
+  - VeryfiLens-BusinessCards (2.0.3.1):
     - AWSS3
 
 DEPENDENCIES:
-  - VeryfiLens-BusinessCards (= 2.0.2.1)
+  - VeryfiLens-BusinessCards (= 2.0.3.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -18,8 +18,8 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AWSCore: aa4a494c8bbcefe97723621fa51cfb1fad15fbd1
   AWSS3: 15772b138d1f82a2b904d088881fb867ef58cd8c
-  VeryfiLens-BusinessCards: df3bb7c3f14b093061252aca639d84a9c9affcab
+  VeryfiLens-BusinessCards: 3dc6f8e40261d8cfe09055eb389bbfd2336f7fc7
 
-PODFILE CHECKSUM: 7b234fece86fdcc8b2358e84c61fb76818d09d8e
+PODFILE CHECKSUM: f14cfbeaf011af47f8f8e1bdefc9e9225fe6d08f
 
 COCOAPODS: 1.11.3
