@@ -32,7 +32,8 @@ You can watch our video:
 ## Veryfi Lens Business Cards iOS Example <a name="example"></a>
 This is an example of how to use Veryfi Lens Business Cards in your app, you can find the developer documentation [here](https://app.veryfi.com/lens/docs/ios/).
 
-![bizcard](https://user-images.githubusercontent.com/30441118/195653940-7a2c1ca4-3a29-4b16-94be-cc964267e11a.gif)
+![bizcard](https://github.com/veryfi/veryfi-lens-business-cards-ios-demo/assets/2013102/ff33b0d8-0cdf-4634-9a83-9d51b687b641)
+
 
 ## How to add Veryfi Lens Business Cards to your project <a name="cocoapods"></a>
 
