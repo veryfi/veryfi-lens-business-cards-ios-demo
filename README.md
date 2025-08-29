@@ -41,7 +41,7 @@ Install from our private [Cocoapods](https://hub.veryfi.com/api/settings/keys).
 
 Add in your project Podfile file the Veryfi Lens Business Cards iOS SDK dependency:
 ```ruby
-pod 'VeryfiLens-BusinessCards', '2.2.33.4'
+pod 'VeryfiLens-BusinessCards', '2.2.34.6'
 ```
 
 ## How to run this project <a name="configuration"></a>
