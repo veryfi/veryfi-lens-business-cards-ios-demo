@@ -8,6 +8,6 @@ target 'LensBusinessCardsDemo' do
   use_frameworks!
 
   # Pods for LensBusinessCardsDemo
-  pod 'VeryfiLens-BusinessCards', '2.2.60.7'
+  pod 'VeryfiLens-BusinessCards', '2.2.62.3'
 
 end
