@@ -76,7 +76,7 @@ Read one level deep, and only inside this folder:
 - Credit card data is local only and is never sent to the backend. `.inApp` (`"mobile"`) is only for `credit_card`, `code`, and `barcode`.
 - Local fraud detection (`fraudDetectionIsOn`) and local field detection (`documentFieldsToDetect`) are paid features gated by the validated account and backend entitlement. Settings cannot unlock them. Field detection also needs the Field Detection or Remote Models flavor.
 - Bank-check TIFF (`retrieveCheckTiffIsOn`) requires Remote Models. It is not in the Checks-specific flavor yet, because the TIFF model is large.
-- When size matters, recommend Remote Models. Measure the final app with the SDK linked and with it removed. Do not quote the XCFramework file size. [SDK binary sizes](https://docs.veryfi.com/lens/mobile/settings/sdk_binary_sizes/).
+- When size matters, recommend Remote Models (`veryfi-lens-spm-remote-models`, pod `VeryfiLens-RemoteModels`, Android `com.veryfi.lens:veryfi-lens-remote-models-sdk`). Models download after the first successful `configure`. Measure the final app with the SDK linked and with it removed. Do not quote the XCFramework file size. [Remote Models](https://docs.veryfi.com/lens/mobile/remote-models/). [SDK binary sizes](https://docs.veryfi.com/lens/mobile/settings/sdk_binary_sizes/).
 - `uploadImages(paths:)` and `headlessUpload` on `VeryfiLens` are UI SDK helpers. They are not the Headless product (`VeryfiLensHeadless`).
 - Public UI settings are `VeryfiLensSettings()`. Do not use Demo subclasses in client code.
 - Headless products use `VeryfiLensCreditCardsSettings` or `VeryfiLensReceiptSettings` (singular), `VeryfiLensHeadlessCredentials`, and `VeryfiLensHeadless.shared()`.
@@ -89,7 +89,7 @@ Read one level deep, and only inside this folder:
 
 - Keep the first integration on the camera and `.cloudAPI`.
 - Add branding after a successful `status` `done` payload.
-- If size matters, recommend Remote Models and measure the final app with and without the SDK. Do not quote the XCFramework file size.
+- If size matters, recommend Remote Models (`veryfi-lens-spm-remote-models`, Android `com.veryfi.lens:veryfi-lens-remote-models-sdk`) and measure the final app with and without the SDK. Do not quote the XCFramework file size. [Remote Models](https://docs.veryfi.com/lens/mobile/remote-models/).
 - Passport, driver license, nutrition facts, and prescription labels are Any-Documents shortcut flavors. Contact support. They are not this business-card binary.
 
 
